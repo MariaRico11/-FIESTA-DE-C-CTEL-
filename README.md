@@ -56,7 +56,9 @@ indicando una señal más afectada por el ruido.
   ![3](https://github.com/user-attachments/assets/0c197dab-9902-4f8e-900a-ef298034ac0f)
 
 > **Dominio de la Frecuencia:**
+
 > **- Eje Horizontal (Frecuencia):** Representa las frecuencias en hertzios (Hz) presentes en la señal.
+
 > **- Eje Vertical (Magnitud):** Muestra la magnitud de cada componente de frecuencia en la señal.
   
 La FFT descompone la señal en sus frecuencias constituyentes, revelando picos que indican las frecuencias predominantes. Cada pico en la gráfica representa una frecuencia específica en la que la señal tiene una mayor amplitud,
