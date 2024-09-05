@@ -64,7 +64,7 @@ indicando una señal más afectada por el ruido.
 La FFT descompone la señal en sus frecuencias constituyentes, revelando picos que indican las frecuencias predominantes. Cada pico en la gráfica representa una frecuencia específica en la que la señal tiene una mayor amplitud,
 lo que sugiere que en la señal original existen componentes sonoros dominantes en esas frecuencias.
 
--	la investigar los métodos de separación de fuentes, se optó por utilizar la **técnica de beamforming**. Esta técnica de procesamiento de señales permite dirigir la recepción o transmisión de señales hacia una dirección específica, mejorando la calidad de la señal y reduciendo el ruido de fondo. El beamforming es comúnmente aplicado en sistemas de audio,
+-	Al investigar los métodos de separación de fuentes, se optó por utilizar la **técnica de beamforming**. Esta técnica de procesamiento de señales permite dirigir la recepción o transmisión de señales hacia una dirección específica, mejorando la calidad de la señal y reduciendo el ruido de fondo. El beamforming es comúnmente aplicado en sistemas de audio,
   comunicaciones y radar.
  	
   La técnica permite que un sistema, como un arreglo de micrófonos, enfoque su sensibilidad en una dirección particular. Esto es útil para captar señales de interés mientras se minimizan las interferencias provenientes de otras direcciones. Además, el beamforming mejora la Relación Señal-Ruido (SNR) al concentrar la captura del sonido en una dirección específica, 
@@ -75,7 +75,7 @@ lo que sugiere que en la señal original existen componentes sonoros dominantes 
 
   ![image](https://github.com/user-attachments/assets/d8defaf7-4dd7-41f2-a92e-cee8acfb8f1e)
 
-  Un SNR de 0.10 dB significa que la señal deseada y el ruido están casi al mismo nivel, lo que indica que la señal no se diferencia lo suficiente del ruido. Este resultado puede ser sorprendente, ya que un valor tan bajo, sugiere que la voz que se intentó filtrar se escucha mejor que el ruido producido por las otras voces, 
+  Un **SNR de 0.10 dB** significa que la señal deseada y el ruido están casi al mismo nivel, lo que indica que la señal no se diferencia lo suficiente del ruido. Este resultado puede ser sorprendente, ya que un valor tan bajo, sugiere que la voz que se intentó filtrar se escucha mejor que el ruido producido por las otras voces, 
   a pesar de haber aplicado beamforming para intentar mejorar la calidad de la señal.
 
 ### Preguntas para el estudiante:
